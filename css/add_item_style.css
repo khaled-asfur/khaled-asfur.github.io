@@ -1,0 +1,95 @@
+body{
+    background-color: #e2e6ec   ;
+    
+}
+.header{
+    /*max-height:50px;*/
+   /* background-color: #007bff ;*/
+    position:fixed;
+    color: #e2e2e2;
+    z-index: 20;
+    
+}
+.header .mynav{
+    width:95%; 
+    background-image: url("../images/5.jpg");   
+    position:fixed;
+    height: 170px;
+    display: block;
+
+}
+.header .info{
+    top: 10px;
+    position: fixed;
+    left: 35%;
+    font-size:1.5rem;
+    color: #e2e2e2;
+    letter-spacing: 0.12rem;
+}
+.name{
+    font-weight: 730;
+    font-size: 4.7rem;
+    
+}
+.info i{
+    position: relative;
+    float: left;
+    right: 5px;
+    top: 3px;
+}
+.profile-image{
+    
+    position:fixed; left: 11%; top: 40px;
+}
+ .sign-out{
+    color: #e2e2e2;
+margin-left:95%;    
+}
+.main-div{
+    margin-top: 240px;
+    margin-bottom:20px;
+}
+.main-div .types{
+    position:fixed;
+    width:23%;
+}
+.mylist-group:focus  {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #337ab7 !important ;
+}
+.mylist-group:hover{
+    color: #000 !important;
+    text-decoration: none;
+    background-color: #D7D7D7 !important
+}
+.types .add{
+    align-content: center;
+    font-size:50px;
+    display:flex;justify-content:center;align-items:center;
+}
+.main-div .content{
+    padding-top: 3%;
+  margin-left:25%;
+    background-color: white;
+    border-radius: 10px;
+}
+.item{
+   background-color:#F2987D; 
+    border-radius: 20px;
+    padding: 5px;
+    margin:25px;
+    margin-top: 0px;
+}
+.item .item-pic{
+    display:flex;justify-content:center;align-items:center;
+height: 210px;
+width: 100%;
+}
+.item .item-info{
+
+    padding:5%;
+    padding-left:15%;
+    font-size:1.5rem;
+    font-weight: 700;
+}
